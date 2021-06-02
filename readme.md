@@ -1,4 +1,4 @@
-# SHA256 culculator
+# SHA256 calculator
 
 ## Usage
 Build
