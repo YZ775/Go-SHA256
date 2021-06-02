@@ -9,7 +9,7 @@ import(
 	"time"
 )
 
-func culculate_sha256(text string,) string { //SHA256チェックサムをchannelで返す
+func culculate_sha256(text string,) string {
 	time.Sleep(2 * time.Second)
 	checksum := sha256.Sum256([]byte(text))
 	result:= hex.EncodeToString(checksum[:])
